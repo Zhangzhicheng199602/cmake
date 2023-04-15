@@ -1,0 +1,10 @@
+^D:\ZHANGZHICHENG\DOCUMENTS\学习\CMAKE\CMAKE\BUILD\CMAKEFILES\_CMAKELTOTEST-CXX\BIN\CMAKEFILES\9BAF0732624734E9666769D1160C9E4B\GENERATE.STAMP.RULE
+setlocal
+C:\Programs\CMake\bin\cmake.exe -SD:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src -BD:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/lto-test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

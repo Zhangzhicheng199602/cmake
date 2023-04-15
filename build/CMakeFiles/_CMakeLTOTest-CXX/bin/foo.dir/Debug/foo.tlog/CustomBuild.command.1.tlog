@@ -1,0 +1,10 @@
+^D:\ZHANGZHICHENG\DOCUMENTS\学习\CMAKE\CMAKE\BUILD\CMAKEFILES\_CMAKELTOTEST-CXX\SRC\CMAKELISTS.TXT
+setlocal
+C:\Programs\CMake\bin\cmake.exe -SD:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src -BD:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-stamp-file D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

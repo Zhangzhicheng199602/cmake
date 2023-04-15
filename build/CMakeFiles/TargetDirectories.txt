@@ -1,0 +1,4 @@
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/ALL_BUILD.dir
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/ZERO_CHECK.dir
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/src/CMakeFiles/test.dir
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/src/math/CMakeFiles/math.dir

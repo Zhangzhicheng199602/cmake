@@ -1,0 +1,4 @@
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/ALL_BUILD.dir
+D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/ZERO_CHECK.dir

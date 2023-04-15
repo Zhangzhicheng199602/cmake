@@ -1,0 +1,704 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.4.1+9a89d02ff for .NET Framework
+      生成启动时间为 2023/4/7 2:25:31。
+      节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:03.80
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/CMakeScratch/TryCompile-fmliei"
+      binary: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/CMakeScratch/TryCompile-fmliei"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/CMakeScratch/TryCompile-fmliei
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8b383.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        生成启动时间为 2023/4/7 2:25:36。
+        节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fmliei\\cmTC_8b383.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_8b383.dir\\Debug\\”。
+          正在创建目录“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fmliei\\Debug\\”。
+          正在创建目录“cmTC_8b383.dir\\Debug\\cmTC_8b383.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_8b383.dir\\Debug\\cmTC_8b383.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b383.dir\\Debug\\\\" /Fd"cmTC_8b383.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Programs\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          CMakeCXXCompilerABI.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b383.dir\\Debug\\\\" /Fd"cmTC_8b383.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Programs\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fmliei\\Debug\\cmTC_8b383.exe" /INCREMENTAL /ILK:"cmTC_8b383.dir\\Debug\\cmTC_8b383.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/CMakeScratch/TryCompile-fmliei/Debug/cmTC_8b383.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/CMakeScratch/TryCompile-fmliei/Debug/cmTC_8b383.lib" /MACHINE:X64  /machine:x64 cmTC_8b383.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8b383.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fmliei\\Debug\\cmTC_8b383.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_8b383.dir\\Debug\\cmTC_8b383.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_8b383.dir\\Debug\\cmTC_8b383.tlog\\cmTC_8b383.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fmliei\\cmTC_8b383.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:44 (check_ipo_supported)"
+    directories:
+      source: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        生成启动时间为 2023/4/7 2:25:38。
+        节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(2) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\”。
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(默认目标)的操作。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3) (默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(4) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“foo.dir\\Debug\\”。
+          正在创建目录“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\”。
+          正在创建目录“foo.dir\\Debug\\foo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          foo.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          正在删除文件“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”。
+          正在对“foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“boo.dir\\Debug\\”。
+          正在创建目录“boo.dir\\Debug\\boo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          正在生成代码
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          已完成代码的生成
+          boo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          正在删除文件“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”。
+          正在对“boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ALL_BUILD\\”。
+          正在创建目录“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:04.27
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:44 (check_ipo_supported)"
+    directories:
+      source: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        生成启动时间为 2023/4/7 2:29:07。
+        节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(2) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\”。
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(默认目标)的操作。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3) (默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(4) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“foo.dir\\Debug\\”。
+          正在创建目录“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\”。
+          正在创建目录“foo.dir\\Debug\\foo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          foo.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          正在删除文件“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”。
+          正在对“foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“boo.dir\\Debug\\”。
+          正在创建目录“boo.dir\\Debug\\boo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          正在生成代码
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          已完成代码的生成
+          boo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          正在删除文件“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”。
+          正在对“boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ALL_BUILD\\”。
+          正在创建目录“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:03.44
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:44 (check_ipo_supported)"
+    directories:
+      source: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        生成启动时间为 2023/4/7 2:30:51。
+        节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(2) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\”。
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(默认目标)的操作。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3) (默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(4) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“foo.dir\\Debug\\”。
+          正在创建目录“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\”。
+          正在创建目录“foo.dir\\Debug\\foo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          foo.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          正在删除文件“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”。
+          正在对“foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“boo.dir\\Debug\\”。
+          正在创建目录“boo.dir\\Debug\\boo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          正在生成代码
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          已完成代码的生成
+          boo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          正在删除文件“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”。
+          正在对“boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ALL_BUILD\\”。
+          正在创建目录“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:03.83
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:44 (check_ipo_supported)"
+    directories:
+      source: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        生成启动时间为 2023/4/8 2:08:07。
+        节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(2) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\”。
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(默认目标)的操作。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3) (默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(4) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“foo.dir\\Debug\\”。
+          正在创建目录“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\”。
+          正在创建目录“foo.dir\\Debug\\foo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          foo.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          正在删除文件“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”。
+          正在对“foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“boo.dir\\Debug\\”。
+          正在创建目录“boo.dir\\Debug\\boo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          正在生成代码
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          已完成代码的生成
+          boo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          正在删除文件“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”。
+          正在对“boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ALL_BUILD\\”。
+          正在创建目录“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:04.65
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:44 (check_ipo_supported)"
+    directories:
+      source: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        生成启动时间为 2023/4/8 2:09:14。
+        节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(2) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\”。
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(默认目标)的操作。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3) (默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(4) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“foo.dir\\Debug\\”。
+          正在创建目录“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\”。
+          正在创建目录“foo.dir\\Debug\\foo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          foo.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          正在删除文件“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”。
+          正在对“foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“boo.dir\\Debug\\”。
+          正在创建目录“boo.dir\\Debug\\boo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          正在生成代码
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          已完成代码的生成
+          boo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          正在删除文件“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”。
+          正在对“boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ALL_BUILD\\”。
+          正在创建目录“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:03.31
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Programs/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:44 (check_ipo_supported)"
+    directories:
+      source: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/zhangzhicheng/Documents/\u5b66\u4e60/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        生成启动时间为 2023/4/8 2:12:42。
+        节点 1 上的项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(2) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\”。
+          正在创建目录“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj”(默认目标)的操作。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3) (默认目标)。
+        项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(3)正在节点 1 上生成“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(4) (默认目标)。
+        PrepareForBuild:
+          正在创建目录“foo.dir\\Debug\\”。
+          正在创建目录“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\”。
+          正在创建目录“foo.dir\\Debug\\foo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          foo.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          正在删除文件“foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild”。
+          正在对“foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“boo.dir\\Debug\\”。
+          正在创建目录“boo.dir\\Debug\\boo.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          正在生成代码
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          已完成代码的生成
+          boo.vcxproj -> D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          正在删除文件“boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild”。
+          正在对“boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj”(默认目标)的操作。
+        PrepareForBuild:
+          正在创建目录“x64\\Debug\\ALL_BUILD\\”。
+          正在创建目录“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        CustomBuild:
+          Building Custom Rule D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          正在删除文件“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild”。
+          正在对“x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\zhangzhicheng\\Documents\\学习\\Cmake\\cmake\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:03.12
+        
+      exitCode: 0
+...

@@ -1,0 +1,10 @@
+^D:\ZHANGZHICHENG\DOCUMENTS\学习\CMAKE\CMAKE\BUILD\CMAKEFILES\CA5BDCB8F3F7D18167F07F7F2875FA54\GENERATE.STAMP.RULE
+setlocal
+C:\Programs\CMake\bin\cmake.exe -SD:/zhangzhicheng/Documents/学习/Cmake/cmake -BD:/zhangzhicheng/Documents/学习/Cmake/cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/zhangzhicheng/Documents/学习/Cmake/cmake/build/test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
